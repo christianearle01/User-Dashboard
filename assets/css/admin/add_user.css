@@ -1,0 +1,37 @@
+body > .container{
+    margin: 6% auto
+}
+form{
+    width: 300px;
+    padding: 1%;
+    border: 1px solid black;
+    border-radius: 4px;
+    text-align: center;
+    margin: 0 auto;
+}
+form h4{
+    text-align: initial;
+    padding-left: 10px;
+}
+label{
+    margin: 10px 0;
+}
+label input[type="text"], label input[type="password"]{
+    width: 90%;
+    margin: 4px auto;
+}
+.link{
+    display: inline-block;
+}
+a.link{
+    margin-top: -10px;
+}
+.container > p{
+    margin-bottom: 25px;
+}
+input[type="text"]::placeholder, input[type="password"]::placeholder{
+    color: red;
+}
+.emphasize{
+    font-weight: 600;
+}
